@@ -1,0 +1,64 @@
+.dad{
+  width: 100%;
+	display: flex;
+  flex-direction: column;
+}
+.blue{
+  background-color: blue;
+  height: 200px;
+  /*flex: 1;*/
+  position: relative;
+}
+.green{
+  background-color: green;
+  height: 200px;
+  /*flex: 1;*/
+  position: relative;
+}
+.red{
+  background-color: red;
+  height: 200px;
+  /*flex: 1;*/
+  position: relative;
+}
+.bluechild, .greenchild, .redchild{
+  background-color: #FFBF00;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px
+}
+.bluechild{
+  top: 100px;
+  margin-top: -30px;  
+}
+.redchild{
+  bottom: 0px;
+}
+.bluechild::after{
+  content: "";
+  border: white solid 2px;
+  position: absolute;
+  padding: 40px;
+  left: -13px;
+  bottom: -12px;
+}
+.greenchild::after{
+  content: "";
+  border: white solid 2px;
+  position: absolute;
+  padding: 40px;
+  left: -13px;
+  /*bottom: -12px;*/
+  top: 0px;  
+}
+.redchild::after{
+  content: "";
+  border: white solid 2px;
+  position: absolute;
+  padding: 40px;
+  left: -13px;
+  /*bottom: 12px;*/
+  bottom: 0px; 
+}
