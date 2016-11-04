@@ -1,0 +1,41 @@
+table {
+    font-family: arial;
+    border-collapse: collapse;
+    width: 1300px;
+}
+th, h2{
+	color: #08298A;
+}
+td:nth-child(5){
+	color: #58D3F7;
+	text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #E0ECF8;
+}
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+th{
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.vertical{
+    vertical-align: text-top;
+}
+.title{
+    font-weight: bold;
+}
+.col5, .col1{
+    width: 6%;
+}
+.gray{
+    color: gray;
+}
